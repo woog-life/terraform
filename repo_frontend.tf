@@ -3,6 +3,7 @@ module "frontend_repo" {
   name                   = "frontend"
   description            = "another preliminary frontend"
   is_public              = false
+  is_archived            = true
   enable_actions         = false
   default_branch_name    = "master"
   protect_default_branch = false
