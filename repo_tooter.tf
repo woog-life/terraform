@@ -5,5 +5,5 @@ module "tooter_repo" {
   blocked_branches       = []
   required_status_checks = []
   enable_actions         = false
-  # TODO: archive
+  is_archived            = true
 }

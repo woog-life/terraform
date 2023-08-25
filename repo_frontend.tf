@@ -5,6 +5,7 @@ module "frontend_repo" {
   is_public              = false
   enable_actions         = false
   default_branch_name    = "master"
+  protect_default_branch = false
   blocked_branches       = []
   required_status_checks = []
 }

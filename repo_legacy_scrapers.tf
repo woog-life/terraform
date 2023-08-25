@@ -3,7 +3,7 @@ module "scraper_repo" {
   name                   = "scraper"
   enable_actions         = false
   required_status_checks = []
-  # TODO archive
+  is_archived            = true
 }
 
 #module "legacy_scraper_repos" {
