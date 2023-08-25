@@ -6,7 +6,8 @@ module "self_repo" {
     "validate",
     "plan",
   ]
-  description = "Organization infrastructure, including GitHub repositories"
+  description    = "Organization infrastructure, including GitHub repositories"
+  enable_actions = false
 }
 
 resource "google_service_account" "self" {
