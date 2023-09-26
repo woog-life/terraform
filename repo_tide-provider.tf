@@ -6,4 +6,5 @@ module "tide_provider_repo" {
     "lint",
     "test",
   ]
+  create_default_branch = false
 }

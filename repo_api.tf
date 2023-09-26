@@ -8,4 +8,5 @@ module "api_repo" {
     "Lint",
     "build-app-container-image",
   ]
+  create_default_branch = false
 }

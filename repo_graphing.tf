@@ -9,4 +9,5 @@ module "graphing_repo" {
     "lint",
     "build_docker",
   ]
+  create_default_branch = false
 }

@@ -4,6 +4,7 @@ module "scraper_repo" {
   enable_actions         = false
   required_status_checks = []
   is_archived            = true
+  create_default_branch  = false
 }
 
 module "booking_scraper_repo" {
@@ -12,6 +13,7 @@ module "booking_scraper_repo" {
   enable_actions         = false
   required_status_checks = []
   is_archived            = true
+  create_default_branch  = false
 }
 
 module "legacy_scraper_repos" {
@@ -30,4 +32,5 @@ module "legacy_scraper_repos" {
   enable_actions         = false
   required_status_checks = []
   is_archived            = true
+  create_default_branch  = false
 }

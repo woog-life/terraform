@@ -5,4 +5,5 @@ module "data_repo" {
   blocked_branches       = []
   required_status_checks = []
   is_archived            = true
+  create_default_branch  = false
 }

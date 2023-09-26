@@ -6,4 +6,5 @@ module "tooter_repo" {
   required_status_checks = []
   enable_actions         = false
   is_archived            = true
+  create_default_branch  = false
 }
