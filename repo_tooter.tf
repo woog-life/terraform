@@ -1,5 +1,5 @@
 module "tooter_repo" {
-  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module"
+  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v1.0.0"
   name                   = "tooter"
   default_branch_name    = "develop"
   blocked_branches       = []

@@ -1,5 +1,5 @@
 module "telegram_updater_repo" {
-  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module"
+  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v1.0.0"
   name                   = "telegram-updater"
   description            = "sends tide/temperature data once a day to a telegram chat"
   default_branch_name    = "main"

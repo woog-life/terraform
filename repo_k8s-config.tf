@@ -1,5 +1,5 @@
 module "k8s_config_repo" {
-  source              = "github.com/BlindfoldedSurgery/terraform-repo-module"
+  source              = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v1.0.0"
   name                = "k8s-config"
   description         = "config repo for ConfigMaps and Secrets"
   default_branch_name = "main"
