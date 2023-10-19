@@ -1,5 +1,5 @@
 module "scraper_repo" {
-  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v1.0.0"
+  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v1.1.0"
   name                   = "scraper"
   enable_actions         = false
   required_status_checks = []
@@ -9,7 +9,7 @@ module "scraper_repo" {
 }
 
 module "booking_scraper_repo" {
-  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v1.0.0"
+  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v1.1.0"
   name                   = "booking-scraper"
   enable_actions         = false
   required_status_checks = []
@@ -27,7 +27,7 @@ module "legacy_scraper_repos" {
     "tourlogger-scraper",
   ])
 
-  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v1.0.0"
+  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v1.1.0"
   name                   = each.key
   default_branch_name    = "master"
   blocked_branches       = []

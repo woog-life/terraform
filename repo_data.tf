@@ -1,5 +1,5 @@
 module "data_repo" {
-  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v1.0.0"
+  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v1.1.0"
   name                   = "data"
   default_branch_name    = "main"
   blocked_branches       = []
