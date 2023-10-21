@@ -6,5 +6,4 @@ module "polarlight_notifier_repo" {
     "lint",
     "build",
   ]
-  create_default_branch = false
 }

@@ -7,5 +7,4 @@ module "dns_config_repo" {
     "validate",
     "plan",
   ]
-  create_default_branch = false
 }

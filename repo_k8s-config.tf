@@ -7,5 +7,4 @@ module "k8s_config_repo" {
   required_status_checks = [
     "lint",
   ]
-  create_default_branch = false
 }

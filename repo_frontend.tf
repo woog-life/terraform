@@ -9,5 +9,4 @@ module "frontend_repo" {
   protect_default_branch = false
   blocked_branches       = []
   required_status_checks = []
-  create_default_branch  = false
 }

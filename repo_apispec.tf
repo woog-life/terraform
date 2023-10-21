@@ -4,5 +4,4 @@ module "apispec_repo" {
   required_status_checks = [
     "check",
   ]
-  create_default_branch = false
 }

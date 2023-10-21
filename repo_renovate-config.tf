@@ -3,5 +3,4 @@ module "renovate_config_repo" {
   name                   = "renovate-config"
   enable_actions         = false
   required_status_checks = []
-  create_default_branch  = false
 }

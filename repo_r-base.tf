@@ -5,5 +5,4 @@ module "r_base_repo" {
   default_branch_name    = "main"
   blocked_branches       = []
   required_status_checks = []
-  create_default_branch  = false
 }
