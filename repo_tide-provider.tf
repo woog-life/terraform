@@ -3,7 +3,7 @@ module "tide_provider_repo" {
   name        = "tide-provider"
   description = "provides the woog-life/api with tide data"
   required_status_checks = [
-    "lint",
-    "test",
+    "lint / lint",
+    "test / test",
   ]
 }
