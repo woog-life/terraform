@@ -1,5 +1,5 @@
 module "r_base_repo" {
-  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v4.0.1"
+  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v4.1.3"
   name                   = "r-base"
   description            = "Base image for other R images (mainly woog-life/graphing)"
   default_branch_name    = "main"

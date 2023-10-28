@@ -1,5 +1,5 @@
 module "scrapers_repo" {
-  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v4.0.1"
+  source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v4.1.3"
   name                   = "scrapers"
   description            = "Scrapes several websites for temperature data for all lakes (with `feature: temperature`)"
   default_branch_name    = "main"
