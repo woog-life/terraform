@@ -1,7 +1,7 @@
 module "frontend_repo" {
   source                 = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v4.0.1"
   name                   = "frontend"
-  description            = "another preliminary frontend"
+  description            = "Another preliminary frontend"
   is_public              = false
   is_archived            = true
   enable_actions         = false

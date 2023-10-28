@@ -1,7 +1,7 @@
 module "preliminary_frontend_repo" {
   source              = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v4.0.1"
   name                = "preliminary-frontend"
-  description         = "frontend for api.woog.life"
+  description         = "Frontend for api.woog.life"
   homepage_url        = "https://woog.life"
   default_branch_name = "main"
   blocked_branches    = []
