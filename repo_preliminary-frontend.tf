@@ -1,5 +1,5 @@
 module "preliminary_frontend_repo" {
-  source              = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v4.1.3"
+  source              = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v4.3.0"
   name                = "preliminary-frontend"
   description         = "Frontend for api.woog.life"
   homepage_url        = "https://woog.life"
