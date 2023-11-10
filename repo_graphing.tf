@@ -1,5 +1,5 @@
 module "graphing_repo" {
-  source              = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v4.3.0"
+  source              = "github.com/BlindfoldedSurgery/terraform-repo-module?ref=v5.0.0"
   name                = "graphing"
   description         = "Creates history graphs for all lakes and uploads them to S3"
   enable_actions      = false
