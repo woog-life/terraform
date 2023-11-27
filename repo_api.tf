@@ -6,6 +6,7 @@ module "api_repo" {
     "Test",
     "Check Format",
     "Lint",
+    "Validate Migrations",
     "build-app-container-image / build",
     "build-migrations-container-image / build",
   ]
